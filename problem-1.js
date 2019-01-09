@@ -21,6 +21,7 @@ function sumAllMultiples(ceiling, factorA, factorB) {
     return sum;
 }
 
+// TESTS
 console.log(sumAllMultiples(1000, 3, 5)); // should return 23
 
 module.exports = sumAllMultiples();
